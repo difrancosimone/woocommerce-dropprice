@@ -1,5 +1,15 @@
 <?php
 
+/*
+Plugin Name: Woocommerce Drop Price
+Plugin URI: http://
+Description: Simply add in the dropdown menù itemized price for every option
+Version: 1.0
+Author: Simone Di Franco
+Author URI: 
+License: GPL2
+*/
+
 add_filter( 'woocommerce_variation_option_name', 'display_price_in_variation_option_name' );
 
 function display_price_in_variation_option_name( $term ) {
